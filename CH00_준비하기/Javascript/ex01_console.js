@@ -15,4 +15,4 @@ console.log(a, d);
 console.log(typeof(d));
 console.log("값은" + a + "입니다.");
 console.log("값은 %d 입니다.", a);
-// 아아아
+// 아아아아
