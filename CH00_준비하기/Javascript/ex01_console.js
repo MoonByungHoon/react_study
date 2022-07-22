@@ -15,4 +15,9 @@ console.log(a, d);
 console.log(typeof(d));
 console.log("값은" + a + "입니다.");
 console.log("값은 %d 입니다.", a);
-// 아아아아아아아
+
+// ES6
+var json = {id : 'bitcamp'};
+
+console.log('Hello my id is ' + json.id + ', nice to meet you');
+console.log(`Hello my id is ${json.id}, nice to meet you`);
