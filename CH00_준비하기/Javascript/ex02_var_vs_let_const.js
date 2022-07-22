@@ -19,7 +19,7 @@ var odd = 10;
 // undefined가 뜨나 정상 작동.
 
 
-console.log(ood);
+// console.log(ood);
 // let ood = 11;
 // 에러가 뜸.
 
