@@ -3,17 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Avatar from './Avatar';
-import CommentList from './CommentList';
+import NotificationList from './NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-
-  {/* <Avatar url='./images/KakaoTalk_20220713_193816695.png'/> */}
-
-  <CommentList />
+    <NotificationList />
   </React.StrictMode>
 );
 

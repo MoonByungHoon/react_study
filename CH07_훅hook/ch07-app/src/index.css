@@ -11,27 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.comment {
-  margin: 8px;
-  padding: 8px;
-  display: flex;
-}
-
-.user-info {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.user-info-name {
-  font-weight: bold;
-  color: #111;
-  line-height: 50px;
-}
-
-.comment-text {
-  padding: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border-radius: 16px;
-}
