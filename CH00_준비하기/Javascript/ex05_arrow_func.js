@@ -35,7 +35,7 @@ const contents = palindromes.filter((str) => {
   // split은 문자열을 문자 단위로 쪼개준다. 만약 '' 사이에 , 을 넣으면 , 을 넣어준다.
   // reverse는 배열의 인덱스들을 거꾸로 뒤집어준다.
   // 조인은 나눠진 문자열들을 합쳐주는 역할을 한다.
-  if(str === str.split('').reverse('').join('')){
+  if (str === str.split('').reverse('').join('')) {
     return str;
   }
 });
@@ -43,7 +43,7 @@ const contents = palindromes.filter((str) => {
 console.log(contents);
 
 const contents2 = palindromes.map((str) => {
-  if(str === str.replace(/(\s*)/g, "").split('').reverse('').join('')){
+  if (str === str.replace(/(\s*)/g, "").split('').reverse('').join('')) {
     return str;
   }
 });

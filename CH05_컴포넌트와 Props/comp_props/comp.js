@@ -9,10 +9,10 @@ function Welcome1(props) {
 // 클래스 컴포넌트
 
 class Welcome2 extends React.Component {
-  render(){
+  render() {
 
     return <h1>Hello, {this.props.name}</h1>
   }
 }
 
-<Welcome1 name = "철수"></Welcome1>
+<Welcome1 name="철수"></Welcome1>

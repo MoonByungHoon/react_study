@@ -5,9 +5,9 @@
 let rest;
 
 // 값을 할당할 변수명이 동일해야한다. 그러지 않으면 할당되지 않는다.
-let c = {a: 'id', b: '11'};
+let c = { a: 'id', b: '11' };
 
-let {a, b} = c;
+let { a, b } = c;
 // 결과적으로 a와 b에 각 id 11이 저장됨.
 
 console.log(a, b);

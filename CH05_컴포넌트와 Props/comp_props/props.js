@@ -6,11 +6,11 @@
 function App(props) {
 
   return (
-    <Profile name = 'Tom' intro = '안녕' hit = {100} />
+    <Profile name='Tom' intro='안녕' hit={100} />
   );
 }
 
-function Profile({name, intro, hit}){
+function Profile({ name, intro, hit }) {
 
   return (
     <>

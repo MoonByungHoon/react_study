@@ -7,20 +7,20 @@
 // 클래스형 컴포넌트 : 생성자에서 생성
 // 함수형 컴포넌트 : 리액트 Hook을 사용하여 생성(함수(Method)에는 생성자가 없기 때문에)
 
-class LikeButton extends React.Component{
+class LikeButton extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
 
     // 생성자에서 모든 state를 한번에 정의
-    this.state = {liked:false}
+    this.state = { liked: false }
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
         {
-          this.setState({liked:true})
+          this.setState({ liked: true })
         }
       </div>
     );

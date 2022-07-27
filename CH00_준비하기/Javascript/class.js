@@ -1,21 +1,21 @@
 // ES6 클래스(class)
 
-class Rectangle{
+class Rectangle {
 
   // 생성자
-  constructor(height, width){
+  constructor(height, width) {
     this.height = height;
-    this.width; 
+    this.width;
   }
 
   //Getter
-  get area(){
+  get area() {
 
-    return this.calcArea(); 
+    return this.calcArea();
   }
 
   // Method
-  calcArea(){
+  calcArea() {
 
     return this.height * width;
   }

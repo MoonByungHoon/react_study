@@ -12,12 +12,12 @@ var a = 10, d = 'a';
 console.log(a, d);
 
 // 타입 확인하기
-console.log(typeof(d));
+console.log(typeof (d));
 console.log("값은" + a + "입니다.");
 console.log("값은 %d 입니다.", a);
 
 // ES6
-var json = {id : 'bitcamp'};
+var json = { id: 'bitcamp' };
 
 console.log('Hello my id is ' + json.id + ', nice to meet you');
 console.log(`Hello my id is ${json.id}, nice to meet you`);

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Clock(props){
+function Clock(props) {
   let now = new Date().toLocaleString();
 
   return (
