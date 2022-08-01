@@ -5,6 +5,10 @@ function Java() {
     <div>
       <img src="./logo512.png" />
       <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
     </div>
   );
 }
