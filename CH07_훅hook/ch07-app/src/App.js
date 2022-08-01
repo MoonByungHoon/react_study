@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
+<<<<<<< HEAD
 import UseState01 from "./hooks/1_useState/UseState01";
 import UseState02 from "./hooks/1_useState/UseState02";
 import UseState03 from "./hooks/1_useState/UseState03";
@@ -16,6 +17,8 @@ import UseCallback02 from "./hooks/5_useCallback/UseCallback02";
 import UseCallback03 from "./hooks/5_useCallback/UseCallback03";
 import UseReducer02 from "./hooks/6_useReducer/UseReducer02";
 import UseReducer03 from "./hooks/6_useReducer/UseReducer03";
+=======
+>>>>>>> namju
 import Home from "./hooks/8_useContext/Home";
 // import 앞에 들어가는 것은 변수명 같은 역할이고 from 뒤에 적는 경로는 참조 경로이다.
 // 변수명과 참조 경로의 파일명이 달라도 상관없지만 보통은 맞춰준다.

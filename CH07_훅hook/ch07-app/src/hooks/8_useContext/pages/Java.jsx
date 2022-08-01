@@ -8,6 +8,7 @@ function Java() {
       <hr />
       <hr />
       <hr />
+      <img src="./2.jpg" />
       <hr />
     </div>
   );
