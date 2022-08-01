@@ -3,7 +3,7 @@ import React from "react";
 function Java() {
   return (
     <div>
-      <img src="./logo512.png" />
+      <img src="./1.png" />
       <hr />
     </div>
   );
